@@ -5,7 +5,7 @@ import {Card} from '../Layouts/Card/Card'
 export const Home = () => {
   return (
     <>
-         <Card/>
+      <Crud/>
     </>
   )
 }
