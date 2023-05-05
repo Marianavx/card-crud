@@ -4,7 +4,7 @@
     border: 1px black solid;
     border-radius: 20px;
     width:800px;
-    height: 80vh;
+    height: 60vh;
     font-family: "Poppins", sans-serif;
 
 }
@@ -85,7 +85,7 @@ hr{
 }
 
 #btn-accept:hover{
- background-color: rgba(174, 43, 226, 0.355);
+ background-color: rgba(49, 226, 43, 0.355);
  color: white;
 }
 #btn-cancel:hover{

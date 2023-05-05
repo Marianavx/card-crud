@@ -17,10 +17,32 @@ body{
     justify-content: space-between;
      height: 20rem;
      width: 13rem;
+     border: none;
      border-radius: 20px;
-     background:url(../../../public/code.jpg) no-repeat ;
-     background-size: cover;    
-     position: relative ;    
+     position: absolute;
+     border: 1px inset #fff;
+     z-index: 1;
+    }
+
+.fondo{
+    top: 0;
+    left: 0;
+    right: 0;
+    border-radius: 20px;
+    bottom: 0;
+    background-image: url('../../../assets/code.jpg');        
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -1;
+    filter: blur(2px);
+    position: absolute;
+  }
+.imagen-card{
+    background-image: url('../../../assets/code.jpg');
+    height: 60%;
+    background-size: cover;
+
+    background-repeat: no-repeat;
 
 }
 .icon-card{
@@ -43,8 +65,9 @@ body{
     display: flex;
     text-align: center;
     justify-content: center;
+    border-radius:0 0 20px 20px;
     align-items: center;
     background-color: rgb(255, 255, 255);
-    height: 5rem;
+    height: 4rem;
     opacity: 0.6;
 }
